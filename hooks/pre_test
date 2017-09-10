@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -e -x
+
+docker run --rm -i lukasmartinelli/hadolint < Dockerfile
+docker run --rm -i lukasmartinelli/hadolint < nginx/Dockerfile
