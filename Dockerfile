@@ -1,4 +1,5 @@
 FROM node:8.4-alpine
+MAINTAINER Surya Widi Kusuma <neversleepman@tfwno.gf>
 
 WORKDIR /usr/src/app
 COPY package.json yarn.lock ./
