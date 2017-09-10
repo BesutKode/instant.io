@@ -1,0 +1,16 @@
+version: '3'
+services:
+  node:
+    build: .
+
+  nginx:
+    build: ./nginx
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./static:/usr/src/app/static
+      - /path/to/ssl.crt:/etc/ssl/ssl.crt
+      - /path/to/ssl.key:/etc/ssl/ssl.key
+    links:
+      - node
