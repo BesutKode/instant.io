@@ -1,6 +1,5 @@
 var compress = require('compression')
 var cors = require('cors')
-var downgrade = require('downgrade')
 var express = require('express')
 var http = require('http')
 var pug = require('pug')
@@ -170,5 +169,4 @@ app.use(function (err, req, res, next) {
 
 server.listen(config.port, function () {
   console.log('listening on port %s', config.port)
-  downgrade()
 })

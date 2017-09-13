@@ -1126,12 +1126,6 @@ dot-prop@^4.1.0:
   dependencies:
     is-obj "^1.0.0"
 
-downgrade@^1.0.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/downgrade/-/downgrade-1.1.1.tgz#b1e57e6de700a57b59f71b992a219d07fc407166"
-  dependencies:
-    debug "^2.2.0"
-
 drag-drop@^2.0.0:
   version "2.13.2"
   resolved "https://registry.yarnpkg.com/drag-drop/-/drag-drop-2.13.2.tgz#a01ff4459123f5ae0a8c8bd9bb38c625ccb81550"
